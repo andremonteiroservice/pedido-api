@@ -1,0 +1,10 @@
+## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring.datasource.url=jdbc:postgresql://ec2-23-21-136-232.compute-1.amazonaws.com:5432/dej2m4m18k44h1
+spring.datasource.username= oigxjceyyqvuen
+spring.datasource.password=1cc8124d03b458b09d478284c7a662435a7556092e4d287bdd9a558a9c866392
+
+# The SQL dialect makes Hibernate generate better SQL for the chosen database
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+
+# Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto = update
